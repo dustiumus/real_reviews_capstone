@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/homepage.css">
+    {% block title %} 
+    <title>Login To RealReviews</title>
+    {% endblock %}
+    <h1>Hello, Please Sign In Below</h1>
+</head>
+{% block content %}
+<body>
+    <form>
+        <input style="background-color: olivedrab;" type="email" placeholder="Email"><br>
+        <input style="background-color: olivedrab;" type="password" placeholder="Password"><br>
+        <input style="background-color: black; color: white;" type="submit"><br>
+        <a style="color: black;" href="create_profile">Create Profile<a/>
+    </form>
+</body>
+{% endblock %}
+</html>

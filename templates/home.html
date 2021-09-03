@@ -1,14 +1,36 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/homepage.css"/>
     {% block title %}
     <title>Welcome, to Real Reviews!</title>
     {% endblock %}
 </head>
 <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
     
+            <div class="navbar-header">
+                <img src="/static/images/xbox.png">
+                <a class="navbar-brand" style="color: black" href="/realreviews">RealReviews</a>
+            </div>
+    
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a style="color: black;" href="/wishlist">
+                            Wishlist
+                        </a>
+                    </li>
+                    <li><a style="color: black;" href="/login">Log In</a><br></li>
+                    <img class="wishlist"
+                         src="/static/images/xbox.png"><br>
+                </ul>
+            </div>
+    
+        </div>
+    </div>
 </body>
 </html>
