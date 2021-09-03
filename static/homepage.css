@@ -41,6 +41,13 @@ img.wishlist {
     width:  30%;
 }
 
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    float: left;
+    margin-left: 25px;
+}
+
 
 
 
